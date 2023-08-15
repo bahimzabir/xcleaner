@@ -21,6 +21,15 @@ git clone git@github.com:bahimzabir/xcleaner.git && cd xcleaner && chmod +x inst
 
 To use `xcleaner`, simply type `xclean` in your terminal and press Enter. The script will clean up various cache and temporary files, freeing up disk space.
 
+## Caution
+
+- This script involves deleting cache and temporary files. Be cautious while using it to avoid accidental data loss.
+- Make sure you understand the cleaning process and the directories being cleaned before running the script.
+
+## Compatibility
+
+- This script is designed for Linux/Ubuntu systems at 42 Schools.
+
 ## Contributions
 
 Contributions and suggestions are welcome! If you encounter any issues or have ideas for improvement, please open an issue or submit a pull request on [GitHub](https://github.com/bahimzabir/xcleaner).
