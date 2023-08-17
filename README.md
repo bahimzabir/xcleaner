@@ -12,7 +12,7 @@ A script to clean cache and temporary files on 42 Schools' Linux/Ubuntu machines
 
 1. Open your terminal and run the following command:
 ```
-git clone git@github.com:bahimzabir/xcleaner.git && cd xcleaner && chmod +x installer.sh; /bin/sh installer.sh
+git clone https://github.com/bahimzabir/xcleaner.git && cd xcleaner && chmod +x installer.sh; /bin/sh installer.sh
 ```
 
 2. Restart your terminal or open a new one:
