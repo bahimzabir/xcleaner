@@ -27,6 +27,7 @@ cache_directories=(
     $HOME/.var/app/com.discordapp.Discord/cache/
     $HOME/.var/app/org.mozilla.firefox/cache/
     $HOME/.var/app/*/cache/
+    $HOME/.local/share/Trash/
     $HOME/.cache/
 )
 
