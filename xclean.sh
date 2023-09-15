@@ -10,6 +10,8 @@ echo -e "Cleaning...\n"
 cache_directories=(
     #You can add any files you want to clean in here :-)
     $HOME/.var/app/com.google.Chrome/cache/
+    $HOME/.npm/_cacache/
+    $HOME/.bun/install/cache/
     $HOME/.var/app/com.google.Chrome/config/google-chrome/component_crx_cache/
     $HOME/.var/app/com.google.Chrome/config/google-chrome/extensions_crx_cache/
     $HOME/.var/app/com.google.Chrome/config/google-chrome/Default/Service\ Worker/ScriptCache/
