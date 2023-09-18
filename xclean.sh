@@ -4,7 +4,12 @@
 
 total_savings=0
 
+#get the used space before cleaning
+initial_space=$(du -sh $HOME 2>/dev/null | cut -d "/" -f1)
+echo -e "Initial used space: \033[1;32m$initial_space\033[0m"
+
 echo -e "Cleaning...\n"
+
 
 
 cache_directories=(
@@ -50,6 +55,11 @@ done
 
 
 echo -e "\n\nDone\n\033[0m"
+
+#get the used space after cleaning
+
+free_space=$(du -sh $HOME 2>/dev/null | cut -d "/" -f1)
+echo -e "Initial space after cleaning: \033[1;32m$free_space\033[0m"
 
 if [ "$total_savings" -lt 1000 ]; then
     echo -e "Total estimated memory savings: \033[32m$total_savings KB\033[0m"
